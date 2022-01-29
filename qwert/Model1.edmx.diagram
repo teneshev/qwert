@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d47cfa258b4e4d269cd90400585fc9f7" Name="Diagram1">
+        <EntityTypeShape EntityType="qwertModel.Client" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.ClientService" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.Gender" Width="1.5" PointX="1.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.Service" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.ServicePhoto" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="qwertModel.Tag" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <AssociationConnector Association="qwertModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="qwertModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

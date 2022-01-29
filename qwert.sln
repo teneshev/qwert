@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qwert", "qwert\qwert.csproj", "{EF9FEA1E-12B1-4497-BDBA-E4AE2001C24A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF9FEA1E-12B1-4497-BDBA-E4AE2001C24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9FEA1E-12B1-4497-BDBA-E4AE2001C24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9FEA1E-12B1-4497-BDBA-E4AE2001C24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9FEA1E-12B1-4497-BDBA-E4AE2001C24A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3F73F22-C9D4-4F60-9E19-6D24D8F1085E}
+	EndGlobalSection
+EndGlobal
